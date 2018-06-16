@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.kumaratul.dailyyoga">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Asana" />
+        <activity android:name=".Pranayam" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Padah" />
+        <activity android:name=".Trikon" />
+        <activity android:name=".Ardha" />
+        <activity android:name=".Tada" />
+        <activity android:name=".Vrik" />
+        <activity android:name=".Bhatrika" />
+        <activity android:name=".Kapalbhati" />
+        <activity android:name=".Bhramari" />
+        <activity android:name=".Ujjayi" />
+        <activity android:name=".Anulomvilom" />
+        <activity android:name=".Avrik" />
+        <activity android:name=".Atada" />
+        <activity android:name=".Aardha" />
+        <activity android:name=".Atrikon" />
+        <activity android:name=".Apadah" />
+        <activity android:name=".Pbhatrika" />
+        <activity android:name=".Pkapalbhati" />
+        <activity android:name=".Pbhramari" />
+        <activity android:name=".Pujjayi" />
+        <activity android:name=".Panulomvilom"></activity>
+    </application>
+
+</manifest>

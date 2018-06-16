@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.kumaratul.dailyyoga.Asana"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="VRIKSHASANA(Tree pose)"
+        android:layout_weight="0.09"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/color"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_weight="0.28"
+        android:background="@color/color"
+        android:text="TADASAN(Palm tree pose)"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="ARDHA CHANDRAASAN(Half moon pose)"
+        android:layout_weight="0.13"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/color"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="TRIKONASAN(Triangle pose)"
+        android:layout_weight="0.19"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/color"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="PADAHSTASANA(Hand under Foot pose)"
+        android:layout_weight="0.32"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/color"/>
+</LinearLayout>

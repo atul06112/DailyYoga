@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.kumaratul.dailyyoga.Pranayam"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="BHASTRIKA"
+        android:layout_weight="0.09"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/color1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_weight="0.28"
+        android:background="@color/color1"
+        android:text="KAPALBHATI"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="BHRAMARI"
+        android:layout_weight="0.13"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/color1"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="UJJAYI"
+        android:layout_weight="0.19"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/color1"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="ANULOM-VILOM"
+        android:layout_weight="0.32"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/color1"/>
+
+</LinearLayout>
